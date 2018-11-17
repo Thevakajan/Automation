@@ -19,7 +19,7 @@ public class CheckTest {
          driver.findElement(By.name("lastname")).sendKeys("Kajan");
          driver.findElement(By.name("reg_email__")).sendKeys("Thevakajan3@gmail.com");
          driver.findElement(By.name("reg_email_confirmation__")).sendKeys("Thevakajan3@gmail.com");
-         driver.findElement(By.name("reg_passwd__")).sendKeys("0777507231");
+         driver.findElement(By.name("reg_passwd__")).sendKeys("");
          driver.findElement(By.name("birthday_day")).sendKeys("10");
          driver.findElement(By.name("birthday_month")).sendKeys("Jun");//u_0_a
          driver.findElement(By.name("birthday_year")).sendKeys("1996");
